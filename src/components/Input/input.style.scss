@@ -1,0 +1,25 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  margin: 0 0 1rem;
+
+  &__input {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 1.075rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+    outline: none;
+    color: #666666;
+    background-color: lightblue;
+    min-height: 2.2rem;
+    transition: border 250ms ease, background-color 250ms ease;
+    &:focus {
+      background-color: #fff;
+    }
+  }
+}

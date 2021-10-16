@@ -1,13 +1,13 @@
 import { Card, Form } from "./components";
-
+import "./index.scss";
 const App = () => {
   return (
     <>
-      <header>
+      <header className="header">
         <Form />
       </header>
 
-      <main>
+      <main className="main">
         <Card />
       </main>
     </>
