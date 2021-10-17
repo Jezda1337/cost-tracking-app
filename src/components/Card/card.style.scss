@@ -1,0 +1,23 @@
+.list {
+  max-width: 30em;
+  margin: 1.5rem auto;
+  list-style: none;
+
+  &__card {
+    padding: 0.5rem;
+    margin: 1rem auto 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-child(odd) {
+      color: rgb(255, 123, 0);
+      background-color: #ccc;
+    }
+    &--header {
+      border-bottom: 0.1rem solid #000;
+      color: #000 !important;
+      background-color: #fff !important;
+    }
+  }
+}

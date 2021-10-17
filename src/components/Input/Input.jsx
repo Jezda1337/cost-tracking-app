@@ -6,7 +6,7 @@ const Input = ({ type, placeholder, changeEvent, title }) => {
         {title}
         <input
           className="input-wrapper__input"
-          onChange={changeEvent}
+          onChange={(e) => changeEvent(e.target.value)}
           type={type}
           placeholder={placeholder}
         />
